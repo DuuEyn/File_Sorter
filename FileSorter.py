@@ -9,6 +9,7 @@ class sortDownloads():
 
   def sortImgs(self, path):
     self.imgPath = path
+    #If the destination directory does not exist, the function will create one.
     if not os.path.exists(self.imgPath):
       os.mkdir(self.imgPath) 
     for image in self.file_list:
@@ -17,6 +18,7 @@ class sortDownloads():
 
   def sortPDFs(self, path):
     self.pdfPath = path
+    #If the destination directory does not exist, the function will create one.
     if not os.path.exists(self.pdfPath):
       os.mkdir(self.pdfPath) 
     for pdfFile in self.file_list:
@@ -24,6 +26,7 @@ class sortDownloads():
         shutil.move(f'{self.sourcePath}/{pdfFile}', self.pdfPath)
 
 def sortFiles():
+  #Source and destination directories. Change this if and when needed.
   sourcePath = 'Downloads'
   imgPath = 'Images'
   pdfPath = 'PDFs'
@@ -33,13 +36,16 @@ def sortFiles():
   pdfs = []
   
   for file in file_list:
+    #If statements below ensures that a file will not be moved
+    #if a file with the same name already exists in the destination directory
     if file.endswith('.jpg') and not os.path.exists(f'{imgPath}/{file}'):
       imgs.append(file)
     elif file.endswith('.pdf') and not os.path.exists(f'{pdfPath}/{file}'):
       pdfs.append(file)
   if len(imgs) == 0 and len(pdfs) == 0:
     return "No new images and PDF files to sort"
-  else:  
+  else: 
+    #Creates a sortDownloads object then calls the relevant function to sort the files.
     imgSorter = sortDownloads(imgs, sourcePath)
     imgSorter.sortImgs(imgPath)
     pdfSorter = sortDownloads(pdfs, sourcePath)
