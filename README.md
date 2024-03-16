@@ -173,7 +173,7 @@ Project Link: [https://github.com/DuuEyn/File_Sorter](https://github.com/DuuEyn/
 [license-shield]: https://img.shields.io/github/license/DuuEyn/File_Sorter.svg?style=for-the-badge
 [license-url]: https://github.com/DuuEyn/File_Sorter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/ian-dewaine-diche-69406a2bb
+[linkedin-url]: https://www.linkedin.com/in/ian-dewaine-diche-69406a2bb
 [product-screenshot]: images/screenshot.png
 [Python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
