@@ -17,17 +17,17 @@
   <p align="center">
     Basic file sorter that sorts JPGs and PDFs. 
     <br />
-    <a href="https://github.com/DuuEyn/File_Sorterr
+    <a href="https://github.com/DuuEyn/File_Sorter
 "><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DuuEyn/File_Sorterr
+    <a href="https://github.com/DuuEyn/File_Sorter
 ">View Repo</a>
     ·
-    <a href="https://github.com/DuuEyn/File_Sorterr
+    <a href="https://github.com/DuuEyn/File_Sorter
 /issues">Report Bug</a>
     ·
-    <a href="https://github.com/DuuEyn/File_Sorterr
+    <a href="https://github.com/DuuEyn/File_Sorter
 /issues">Request Feature</a>
   </p>
 </div>
